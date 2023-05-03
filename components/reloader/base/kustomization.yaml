@@ -5,3 +5,10 @@ bases:
   - https://github.com/stakater/Reloader/deployments/kubernetes
 
 namespace: cp4i
+
+patchesJson6902:
+- target:
+    version: apps/v1
+    kind: Deployment
+    name: reloader-reloader
+  path: remove-user.yaml
