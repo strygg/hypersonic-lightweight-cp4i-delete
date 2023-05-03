@@ -4,4 +4,4 @@ kind: Kustomization
 bases:
   - https://github.com/stakater/Reloader/deployments/kubernetes
 
-namespace: reloader
+namespace: cp4i
