@@ -8,7 +8,7 @@ namespace: cp4i
 
 patchesJson6902:
 - target:
-    version: apps/v1
+    version: v1
     kind: Deployment
     name: reloader-reloader
   path: remove-user.yaml
