@@ -6,7 +6,7 @@ data:
   mq.ini: |
     Channels:
       MaxChannels=200
-      MaxActiveChannels=100
+      MaxActiveChannels=102
 
   tls.mqsc: |
     DEFINE QLOCAL('QUEUE1') DEFPSIST(YES) REPLACE 
