@@ -15,7 +15,7 @@ spec:
   source:
     path: ./components/common/base
     targetRevision: 'HEAD'
-    repoURL: https://github.dev/kjellmlarsson/hypersonic-lightweight-cp4i-delete.git
+    repoURL: https://github.com/kjellmlarsson/hypersonic-lightweight-cp4i-delete.git
   syncPolicy:
     automated:
       prune: true
